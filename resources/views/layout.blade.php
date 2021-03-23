@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    @yield('head')
+
     {{--    CSS--}}
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -57,6 +59,9 @@
     <footer class="container-fluid">
         <p>Здравия желаем в самом современном(нет) чате</p>
     </footer>
+    <script>
+
+    </script>
 </div>
 </body>
 </html>
